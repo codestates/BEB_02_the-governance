@@ -1,0 +1,16 @@
+{
+  "name": "the_governance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "klayten_api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caver-js-ext-kas": "^1.1.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
