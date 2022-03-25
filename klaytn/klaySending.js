@@ -14,6 +14,10 @@ async function forKlay() {
     // 지갑에 추가
     caver.wallet.add(keyring);
     console.log("key :", keyring);
+
+    // 개인키를 SingleKeyring 으로 생성
+    // const keyringFromPK = caver.wallet.keyring.createFromPrivateKey("0x2b60e6bf8a86549acafec923bc35bb51b6dc6d0e4c987d2ce55b53727673b970");
+    // console.log("PK keyring:", keyringFromPK);
 }
 
 forKlay();
